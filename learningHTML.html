@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning HTML</title>
+    <style>
+        p { 
+            font-size: 100%;
+            text-align: left;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Learning HTML</h1>
+    <!--Remember to add comments-->
+    <p style="color: blue;">To open the preview of a html file in CVS, type <strong>Ctrl+K V</strong></p>
+   
+    <!--Line break-->
+    <br>
+
+    <p>Two ways to add images</p>
+    <img src="canal-5488271_1920.jpg" alt="cityPicture" width="300" height="200">
+    <br>
+    <br>
+    <img src="https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/europe/berlin-travel.jpg" alt="berlin" width="300" height="200" title="Berlin">
+    <br>
+    <br>
+
+    <p>Image as link</p>
+    <a href="https://en.wikipedia.org/wiki/Berlin" target="self">
+        <img src="https://www.nationalgeographic.com/content/dam/travel/Guide-Pages/europe/berlin-travel.jpg" alt="berlin" width="300" height="200" title="Berlin">
+    </a>
+
+        <!--Horizontal rule-->
+    <hr>
+
+    <a href="https://www.w3schools.com/html/default.asp" target="self">This is a link</a>
+  
+    <!--<pre> element preserves spaces and line breaks-->
+    <pre >
+        Today is monday. 
+        It's a new week.
+    </pre>
+    <p>
+        Today is monday.
+        It's a new day.
+    </p>
+
+    <p style="background-color: crimson;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque praesentium non libero perferendis quaerat perspiciatis quae mollitia, quas nam vel ullam explicabo, aliquid quod, ad animi quisquam a? Eaque, corrupti?</p>
+
+    <p>Table</p>
+    <table cellpadding="5" cellspacing="10" border="2" bordercolor="yellow" bgcolor="green">
+        <caption>Table Caption</caption>
+        <thead>
+            <tr>
+                <td colspan="2">This is the head</td>
+            </tr>
+        </thead>
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+        </tr>
+        <tr>
+            <th>Luiza</th>
+            <th>Campos</th>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="2">This is the footer</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!--type="" circle, square, disc-->
+    <ul>
+        <li>Milk</li>
+        <li>Water</li>
+    </ul>
+
+        <!--type="" 1, I, i, A, a-->
+    <ol>
+        <li>Sunday</li>
+        <li>Monday</li>
+    </ol>
+
+    <p>Form</p>
+    <form>
+        <label>Username
+            <input type="text">
+        </label>
+        <br>
+        <label>Password
+            <input type="text">
+        </label>
+    </form>
+</body>
+</html>
